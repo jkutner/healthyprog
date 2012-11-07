@@ -137,8 +137,9 @@ a.source:hover {
   line-height:20px;
   font-size: 14px;
   font-weight: normal;
-  font-family: helvetica, sans-serif;
+  font-family: times, helvetica, sans-serif;
   margin-left:25px;
+  margin-right:25px;
 }
 
 h2 {
