@@ -115,6 +115,9 @@ a.source:hover {
   height:auto;
   padding-top: 0px;
 }
+.detail-wide {
+  width: 98%;
+}
 .detail p {
   padding: 5px 30px 30px 30px;
   text-align:left;
