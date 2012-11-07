@@ -119,6 +119,11 @@ a.source:hover {
   width: 98%;
 }
 .detail p {
+  padding: 5px 10px 5px 10px;
+  text-align:left;
+  font-family: helvetica, sans-serif;
+}
+.detail p.emph {
   padding: 5px 30px 30px 30px;
   text-align:left;
   line-height:40px;
@@ -126,6 +131,15 @@ a.source:hover {
   font-weight: bold;
   font-family: helvetica, sans-serif;
 }
+.detail ul {
+  text-align:left;
+  line-height:20px;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: helvetica, sans-serif;
+  margin-left:25px;
+}
+
 h2 {
   color: black;
   display: block;
@@ -175,4 +189,39 @@ h3 {
 .clear {
   float: none;
   clear: both;
+}
+
+.detail p.blog-post {
+  padding: 0px 30px 0px 30px;
+  text-align:left;
+  line-height:18px;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: times, helvetica, sans-serif;
+}
+.detail p.blog-title {
+  padding: 5px 30px 0px 30px;
+  text-align:left;
+  line-height:40px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: helvetica, sans-serif;
+}
+.detail p.blog-date {
+  padding: 5px 30px 0px 30px;
+  text-align:left;
+  line-height:20px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style:italic;
+  font-family: helvetica, sans-serif;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
 }
