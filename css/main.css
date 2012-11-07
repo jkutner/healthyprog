@@ -41,7 +41,8 @@ body {
   height: auto;
   margin: auto;
   padding: 30px;
-  width: 60%;      
+  width: 60%;    
+  min-width: 600px;  
 }
 
 div.whiskey-img {
