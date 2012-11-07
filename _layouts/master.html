@@ -5,27 +5,44 @@
 </head>
 <body>  
   <div class="header">
-    <a href="#">
-      <img src="../../images/logo_bw.png" width="600"/>
+    <a href="http://healthyprog.com">
+      <img src="/images/logo_bw.png" width="600"/>
     </a>
   </div>
   <div>
     <p style="color:white;text-align:center">
-      <a href="/dashboard.html" class="headerlink">Home</a>
+      <a href="/dashboard.html" class="headerlink" 
+        {% if page.url == "/dashboard.html" %}
+          style="text-decoration:underline"
+        {% endif %}>Home</a>
       &nbsp;&nbsp;&nbsp;
-      <a href="#" class="headerlink">News</a>
+      <a href="/blog.html" class="headerlink"
+        {% if page.url == "/blog.html" %}
+          style="text-decoration:underline"
+        {% endif %}>News</a>
       &nbsp;&nbsp;&nbsp;
-      <a href="/goals.html" class="headerlink">Goals</a>
+      <a href="/goals.html" class="headerlink"
+        {% if page.url == "/goals.html" %}
+          style="text-decoration:underline"
+        {% endif %}>Goals</a>
       &nbsp;&nbsp;&nbsp;
-      <a href="/tools.html" class="headerlink">Tools</a>
+      <a href="/tools.html" class="headerlink"
+      {% if page.url == "/tools.html" %}
+          style="text-decoration:underline"
+        {% endif %}>Tools</a>
       &nbsp;&nbsp;&nbsp;
-      <a href="/downloads.html" class="headerlink">Downloads</a>
+      <a href="/downloads.html" class="headerlink"
+        {% if page.url == "/downloads.html" %}
+          style="text-decoration:underline"
+        {% endif %}>Downloads</a>
     </p>
   </div>
   <div class="main">
     <div>
-      <h2>{{page.title}}</h2>
-      <h3>{{page.description}}</h3>
+      <!-- <h2>{{page.title}}</h2> -->
+      {% if page.description %}
+        <h3>{{page.description}}</h3>
+      {% endif %}
     </div>   
     {{content}}
     <div class="details-wrapper ">
@@ -34,8 +51,8 @@
     <div class="clear"></div>
   </div>
   <div class="footer">
-    <a href="http://itunes.apple.com/us/app/whiskey-log/id540819173">
-      <img class="button" src="../../images/get-the-book.png" width="150"/>
+    <a href="http://pragprog.com/book/jkthp/the-healthy-programmer">
+      <img class="button" src="/images/get-the-book.png" width="150"/>
     </a>
   </div>
   <div class="footer">
