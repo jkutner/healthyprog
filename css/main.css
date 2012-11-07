@@ -93,7 +93,7 @@ a.source:hover {
 .detail-header {
   margin: 0;
   padding: 0;
-  background: url('../images/background_green.png') repeat-x;
+  background: #333 repeat-x;
   text-align: center;
 }
 .detail-header h4 {
