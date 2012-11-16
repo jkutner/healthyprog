@@ -227,3 +227,58 @@ hr.style-two {
     background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
 }
+
+
+
+.app-download {
+  width: 217px;
+  text-align: center;
+  overflow-y: visible;
+  /*margin-left:35px;*/
+  margin: 50px 0 50px 0;
+}
+.app-download-button {
+  background: url('../images/homepage.png') no-repeat 0 -76px;
+
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+
+  background-origin: padding-box;
+  border-bottom-color: white;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-left-color: white;
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: white;
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: white;
+  border-top-style: none;
+  border-top-width: 0px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: bold;
+  height: 21px;
+  left: 0px;
+  line-height: 21px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  overflow-y: visible;
+  padding-bottom: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 13px;
+  /*position: relative;*/
+  text-decoration: none;
+  text-shadow: rgba(0, 0, 0, 0.65625) 0px -1px 0px;
+  top: -66px;
+  width: 187px;
+}
