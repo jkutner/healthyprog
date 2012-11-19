@@ -7,14 +7,16 @@ body {
 }
 .header {
   padding: 10px 20px 20px 20px;
-  background: url('../images/background_green.png') repeat-x;
+  /*background-image: -webkit-linear-gradient(top, #4F8F00, #294F00) url('../images/ekg.png') repeat-x;;*/
+  background: url('../images/ekg.png') repeat-x;
   text-align: center;
+  height: 45;
 }
 .main {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: black;
-  background-image: url('../images/box-bgr.gif');
+  background-image: url('../images/paplgra.png');
   background-origin: padding-box;
   background-position: center top;
   border-bottom-color: black;
@@ -281,4 +283,8 @@ hr.style-two {
   text-shadow: rgba(0, 0, 0, 0.65625) 0px -1px 0px;
   top: -66px;
   width: 187px;
+}
+
+img.logo {  
+  box-shadow: #545454 0px 0px 16px 0px;
 }
