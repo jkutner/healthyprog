@@ -138,9 +138,9 @@ a.source:hover {
 .detail ul {
   text-align:left;
   line-height:20px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
-  font-family: times, helvetica, sans-serif;
+  font-family: Bakersville, times, helvetica, sans-serif;
   margin-left:25px;
   margin-right:25px;
 }
@@ -200,10 +200,10 @@ h3 {
 .detail p.blog-post {
   padding: 0px 30px 10px 30px;
   text-align:left;
-  line-height:18px;
-  font-size: 16px;
+  line-height:20px;
+  font-size: 18px;
   font-weight: normal;
-  font-family: times, helvetica, sans-serif;
+  font-family: Bakersville, times, helvetica, sans-serif;
 }
 .detail p.blog-title {
   padding: 5px 30px 0px 30px;
