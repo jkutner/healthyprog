@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: black;
-  background-image: url('../images/BlackBoxBG.gif');
+  background-image: url('../images/bg.png');
   background-origin: padding-box;
   background-position: center;
 }
@@ -221,15 +221,17 @@ h3 {
   font-weight: normal;
   font-style:italic;
   font-family: helvetica, sans-serif;
+  text-align: center;
 }
 .detail p.blog-author {
-  padding: 0px 30px 0px 30px;
+  padding: 5px 30px 0px 30px;
   text-align:left;
   line-height:15px;
   font-size: 12px;
   font-weight: normal;
   font-style:normal;
   font-family: helvetica, sans-serif;
+  text-align: center;
 }
 
 hr.style-two {
