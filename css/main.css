@@ -222,6 +222,15 @@ h3 {
   font-style:italic;
   font-family: helvetica, sans-serif;
 }
+.detail p.blog-author {
+  padding: 0px 30px 0px 30px;
+  text-align:left;
+  line-height:15px;
+  font-size: 12px;
+  font-weight: normal;
+  font-style:normal;
+  font-family: helvetica, sans-serif;
+}
 
 hr.style-two {
     border: 0;

@@ -13,6 +13,9 @@ layout: master
     <p class="blog-title">
       {{post.blog-title}} 
     </p>
+    <p class="blog-author">
+      <a href="{{post.author-link}}">{{post.author}}</a>
+    </p>
     <p class="blog-date">
       {{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}
     </p>
