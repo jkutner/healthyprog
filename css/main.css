@@ -310,3 +310,19 @@ hr.style-two {
 img.logo {  
   box-shadow: #545454 0px 0px 16px 0px;
 }
+
+.alinks {
+  text-align:center;
+  margin-top:20px;
+  padding:0 150px 0 150px
+}
+
+.alinks a {
+  color:green;
+}
+.alinks a:visited {
+  color:green;
+}
+.alinks a:hover {
+  
+}
