@@ -1,85 +1,121 @@
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
 <head>
-  <title>The Healthy Programmer</title>
-  <link rel="stylesheet" type="text/css" href="/css/main.css" />
-  <meta name="viewport" content="width=640" />
-  <meta name="apple-itunes-app" content="app-id=576258650">
+    <meta charset="utf-8">
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <title>The Healthy Programmer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/filoxenia.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/custom.css">
+
+    <script src="js/vendor/custom.modernizr.js"></script>
 </head>
-<body>  
-  <div class="header">
-    <a href="http://healthyprog.com">
-      <img src="/images/logo_bw.png" width="610"/>
-    </a>
-  </div>
-  <div>
-   <!--  <table style="width:100%">
-      <tr>
-        <td style="width:33%"></td>
-        <td style="min-width:400px"> -->
-          <p style="color:white;text-align:center">
-            <a href="/index.html" class="headerlink" 
-              {% if page.url == "/index.html" %}
-                style="text-decoration:underline"
-              {% endif %}>Home</a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="/blog.html" class="headerlink"
-              {% if page.url == "/blog.html" %}
-                style="text-decoration:underline"
-              {% endif %}>News</a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="/goals.html" class="headerlink"
-              {% if page.url == "/goals.html" %}
-                style="text-decoration:underline"
-              {% endif %}>Goals</a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="/tools.html" class="headerlink"
-            {% if page.url == "/tools.html" %}
-                style="text-decoration:underline"
-              {% endif %}>Tools</a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="/downloads.html" class="headerlink"
-              {% if page.url == "/downloads.html" %}
-                style="text-decoration:underline"
-              {% endif %}>Resources</a>
-          </p>
-       <!--  </td>
-        <td style="width:33%; text-align: right">
-          <p style="color:white">
-            sign in
-          </p>
-        </td>
-      </tr>
-    </table> -->
-  </div>
-  <div class="main">
-    <div>
-      <!-- <h2>{{page.title}}</h2> -->
-      {% if page.name %}
-        <h2>{{page.name}}</h2>
-      {% endif %}
-      {% if page.description %}
-        <h3>{{page.description}}</h3>
-      {% endif %}
-    </div>   
-    {{content}}
-    <div class="details-wrapper ">
-     
+
+<body>
+<header class="contain-to-grid">
+    <div class="row">
+        <div class="large-12 column">
+            <nav id="menu" class="top-bar">
+
+                <ul class="title-area">
+                    <li class="name">
+                        <a href="index.html">
+                            <img src="images/logo.png" width="200" alt="logo">
+                        </a>
+                    </li>
+                    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a>
+                    </li>
+                </ul>
+
+                <section class="top-bar-section">
+                    <ul class="right">
+                        <li><a href="goals.html">GOALS</a>
+                        </li>
+                        <li><a href="resources.html">RESOURCES</a>
+                        </li>
+                        <li id="getapp"><a href="https://itunes.apple.com/us/app/the-healthy-programmer/id576258650" class="button no-margin">GET THE APP</a>
+                        </li>
+                    </ul>
+                </section>
+            </nav>
+        </div>
     </div>
-    <div class="clear"></div>
-  </div>
-  <div class="footer">
-    <a href="http://pragprog.com/book/jkthp/the-healthy-programmer">
-      <img class="button" src="/images/get-the-book.png" width="150"/>
-    </a>
-  </div>
-  <div class="footer">
-    <a href="https://twitter.com/healthyprog" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @healthyprog</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-  </div>
-  <div class="footer">
-    &copy; 2012 Logichaus, LLC
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="http://logichaus.com">About</a>
-  </div>
+</header>
+
+<section id="main" role="main">
+    {{content}}
+</section>
+
+<a id="back-top" href="#"><i class="icon-caret-up"></i></a>
+
+<footer>
+    <div class="row spacy">
+        <div class="large-6 column">
+            <h4>About the Author</h4>
+            <p>
+                Joe Kutner has been a programmer for over a decade and he’s spent many of those years researching the health issues that relate to his sedentary job. He’s also a former college athlete and Army Reserve physical fitness trainer. Through his research and personal experience, he’s learned that small changes can make big differences in peoples’ health. Now he wants to help other programmers improve their lifestyles.
+            </p>
+        </div>
+
+        <div class="large-4 column">
+            <h4>Contact</h4>
+
+            <div class="row">
+                <div class="small-3 column text">
+                    <h6>Twitter:</h6>
+                </div>
+                <div class="small-9 column text">
+                    <p><a href="https://twitter.com/healthyprog">@healthyprog</a></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="small-3 column text">
+                    <h6>Email:</h6>
+                </div>
+                <div class="small-9 column text">
+                    <p>
+                        <a href="mailto:joe@logichaus.com">joe@logichaus.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-12 column">
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <p class="small-12 large-4 large-uncentered column copyright">
+            Copyright &copy; 2013 LogicHaus, LLC.
+        </p>
+    </div>
+
+</footer>
+
+<!-- Javascript -->
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/jquery.magnific-popup.js"></script>
+<script src="js/foundation/foundation.js"></script>
+<script src="js/foundation/foundation.topbar.js"></script>
+<script src="js/foundation/foundation.section.js"></script>
+<script src="js/filoxenia.js"></script>
+<script src="js/custom.js"></script>
 </body>
+
 </html>
